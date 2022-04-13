@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .trans{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            transition: width 2s ease-in-out;
+            transition: background-color 2s ease-in-out;
+        }
+        .trans:hover{
+            width: 200px;
+            background-color: rgb(71, 23, 177);
+        }
+    </style>
+</head>
+<body>
+    <div class="trans"></div>
+</body>
+</html>

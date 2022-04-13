@@ -1,0 +1,29 @@
+.red{
+    background-color: rebeccapurple;
+    color: aqua;
+}
+/* .green{
+    background: pink;
+    color: blue;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* *{
+    background-image: url('css-logo.jpg');
+    background-size :10%;
+    background-repeat: repeat-x;
+} */
+.red{
+    border: 2px solid red;
+    width: 750px;
+    height: 1744px;
+    background-image: url('css-logo.jpg');
+    /* background-size :cover; */
+    background-size: 30%;
+    background-repeat:no-repeat;
+    /* background-position: top center; */
+    background-attachment: fixed ;
+}
